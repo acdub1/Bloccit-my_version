@@ -4,6 +4,9 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
 
+#new pry rails code
+gem 'pry-rails', :group => :development
+
 #bootstrap gem added for css access
 gem 'bootstrap-sass'
 
@@ -15,6 +18,7 @@ end
 
 group :development do
   gem 'sqlite3'
+  gem 'rails-erd'
 end
 
 # Use SCSS for stylesheets
