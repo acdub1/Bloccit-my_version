@@ -2,7 +2,7 @@ require 'faker'
 
 #Create unique post
 post = Post.first
-unless Post.where(:title == 'Unique Post').exists?         
+unless Post.where(title: 'Unique Post').exists?         
       Post.create!(                 
         title: 'Unique Post',
         body:  'This is the body of a unique post'
