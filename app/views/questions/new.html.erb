@@ -1,0 +1,13 @@
+ <%= form_for @question do |f| %>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+
+    <p><%= f.label :body %>
+    <%= f.text_area :body %></p>
+
+    <%= f.check_box_tag :resolved %>
+    <%= f.label_tag (:resolved, "Resolved") %>
+
+      <%= f.submit "Save" %>
+
+  <% end %>
