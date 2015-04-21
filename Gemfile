@@ -19,6 +19,7 @@ end
 group :development do
   gem 'sqlite3'
   gem 'rails-erd'
+  gem 'letter_opener'
 end
 
 # Use SCSS for stylesheets
@@ -35,6 +36,10 @@ gem 'jquery-rails'
 
 #authentication gem
 gem 'devise'
+
+gem 'figaro', '1.0'
+
+
 
 #Faker!!
 gem 'faker'
